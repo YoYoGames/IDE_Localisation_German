@@ -1,0 +1,24 @@
+{
+  "name": "GermanLocalisation",
+  "bundle_version": "1.0",
+  "bundle_description": "German IDE localisations",
+  "required": false,
+  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_German",
+  "plugins": [
+    {
+      "plugin_name": "GermanLocalisation",
+      "localised_name": "german_localisation",
+      "plugin_version": "1.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+            { "German": "german.csv" },
+            {"German": "german_dnd.csv" }
+        ]
+      },
+      "description": "German IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ]
+}
