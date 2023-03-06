@@ -7117,9 +7117,9 @@ TimelineNameRule,Timeline Naming Rule,Zeitleisten-Namensregel,,Timeline Naming R
 ObjectNameRule,Object Naming Rule,Objekt-Namensregel,,Object Naming Rule
 RoomNameRule,Room Naming Rule,Raum-Namensregel,,Room Naming Rule
 OtherResourceNameRule,Other Resource Naming Rule,Weitere Ressourcen - Namensregel,,Other Resource Naming Rule
-ErrorColor,Error Colour,Fehler Farbe,,Error Colour
-WarningColor,Warning Colour,Warnung Farbe,,Warning Colour
-SuggestionColor,Suggestion Colour,Vorschlag Farbe,,Suggestion Colour
+ErrorColor,Error Colour,Fehler-Farbe,,Error Colour
+WarningColor,Warning Colour,Warnungs-Farbe,,Warning Colour
+SuggestionColor,Suggestion Colour,Vorschlags-Farbe,,Suggestion Colour
 ProjectLoad_ReadOnly_Message,This Project has been loaded in Read-Only mode,Dieses Projekt wurde im schreibgeschützten Modus geladen,,Message to say that the project has been loaded as read-only
 Project_ReadOnly_SeeURL,Click here for a HelpDesk article with more information,Klicken Sie hier für einen HelpDesk-Artikel mit weiteren Informationen,,Message to tell the user to see a linked helpdesk article
 Inspector_Category_Attributes,Attributes,Attribute,,inspector category
