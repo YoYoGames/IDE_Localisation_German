@@ -1,6 +1,6 @@
 {
   "name": "GermanLocalisation",
-  "bundle_version": "1.0",
+  "bundle_version": "2023.06.0",
   "bundle_description": "German IDE localisations",
   "required": false,
   "endpoints": [
@@ -13,7 +13,7 @@
     {
       "plugin_name": "GermanLocalisation",
       "localised_name": "german_localisation",
-      "plugin_version": "1.0",
+      "plugin_version": "2023.06.0",
       "type": "Language",
       "plugin_data": {
         "languages": [
