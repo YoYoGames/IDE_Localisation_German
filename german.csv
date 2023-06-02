@@ -6,7 +6,7 @@ _Language,German,German,,Language name - in English
 _LanguageNative,German,Deutsche,,Language name in the native language
 _LanguageCode,de,de,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
-_MANUAL_LOCATION,"http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip","http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip",,Location of language manual
+_MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,,Location of language manual
 _MANUAL_ONLINE_URL,https://manual-de.yoyogames.com,https://manual-de.yoyogames.com,,online manual url
 _TUTORIALS_ONLINE_URL,https://www.yoyogames.com/de/tutorials,https://www.yoyogames.com/de/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,In Explorer öffnen,,Windows version of Open In Explorer
@@ -27,7 +27,6 @@ $win_IDEMenuViews,Windows,Fenster,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Fenster,,Mac version of the views menu entry
 Account_Menu_Login,Login,Anmelden,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,Abmelden,,"Acount menu ""Logout"""
-Account_Menu_ManageAccount,Manage Account,Konto verwalten,,"Account menu ""Account"""
 AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,Der als angegebene '{0}‘ Übergang ist nicht gültig,,The transition specified in the animation json is not a valid value
 BackgroundLayer_HSpeed,Horizontal Speed,Horizontale Geschwindigkeit,,Numeric textbox label for horizontal scroll speed
 BackgroundLayer_HTile,Horizontal Tile,Horizontale Kachel,,Checkbox label for horizontal tiling
@@ -1127,7 +1126,7 @@ ResourceNode_AddExistingFromLibrary,Add Existing From My Library,Bestehendes aus
 ResourceNode_AddGroup,Add Group,Gruppe hinzufügen,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,Aus Standardansicht hinzufügen,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,Aus aktueller Ansicht entfernen,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","Sie entfernen  """"{0}"""" aus der Ansicht """"{1}"""". Fortfahren?",,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView_Confirm,"You are about to remove ""{0}"" from view ""{1}"". Continue?","Sie entfernen  ""{0}"" aus der Ansicht ""{1}"". Fortfahren?",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,Erstellen,,Resource Tree node menu - create resource
 ResourceNode_GMLVisualToScript,Convert to GML Code,In GML Code konvertieren,,Resource Tree node menu - GML Visual To GML
 ResourceNode_ScriptToGMLVisual,Convert to GML Visual,In GML Visual konvertieren,,Resource Tree node menu - Script To GML Visual
@@ -1882,8 +1881,8 @@ Tutorial_Dock_Title,Tutorial,Tutorial,,tutorial dock tab title
 Tutorial_FileMissing,Could not find {0},{0} konnte nicht gefunden werden,,tutorial missing file message
 Tutorial_DisplayNameMissing,Display name must be set,Anzeigename muss festgelegt werden,,tutorial missing display name message
 Tutorial_PurchaseFailed,Error acquiring tutorial: {0},Fehler bei Tutorialabruf: {0},,tutorial purchase error message
-Tutorial_CreateInfo,Add content to Included Files "TutorialContent" folder,Inhalt zu enthaltenen Dateien im "TutorialContent"-Ordner hinzufügen,,tutorial package create info label
-Tutorial_CreateInfo2,Add files for the user to import to Included Files "TutorialResources" folder,Dateien für den Nutzer* zum Importieren der im "TutorialContent"-Ordner enthaltenen Dateien hinzufügen,,tutorial package create info label
+Tutorial_CreateInfo,"Add content to Included Files ""TutorialContent"" folder","Inhalt zu enthaltenen Dateien im ""TutorialContent""-Ordner hinzufügen",,tutorial package create info label
+Tutorial_CreateInfo2,"Add files for the user to import to Included Files ""TutorialResources"" folder","Dateien für den Nutzer* zum Importieren der im ""TutorialContent""-Ordner enthaltenen Dateien hinzufügen",,tutorial package create info label
 Tutorial_UpdateAvailableNotification,Update Available: {0},Update verfügbar: {0},,tutorial package update available notification
 Demo_PurchaseFailed,Error Acquiring Demo: {0},Fehler bei Demo-Abruf: {0},,demo purchase error message
 yyzimporter_message,YYZ Importer,YYZ-Importer,,YYZ Importer Message Title
@@ -2479,7 +2478,7 @@ GMLVisual_Pref_RecentlyUsed,Maximum number of recently used actions to display,M
 GMLVisual_Pref_ChainSmoothness,The smoothness of the chain.,Die Glattheit der Kette.,,GML Visual pref
 GMLVisual_Pref_DragTime,Mouse down time to start dragging node (ms),Maushaltezeit bis zum Ziehen des Knoten (ms),,GML Visual pref
 GMLVisual_Message_Error_Prefix,ERROR:,FEHLER:,,GML Visual message prefix
-GMLVisual_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,Der Knoten "{0}" verursacht einen ungültigen Programmablauf. Zu einem korrekten Ort verschieben.,,GML Visual message syntax error
+GMLVisual_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","Der Knoten ""{0}"" verursacht einen ungültigen Programmablauf. Zu einem korrekten Ort verschieben.",,GML Visual message syntax error
 GMLVisual_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,Ungültige Einfügung,,GML Visual pop up title for below message
 GMLVisual_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,Das Einfügen von {0} an dieser Stelle führt zu einem ungültigen Programm.,,GML Visual pop up message for invalid syntax insertion
 ggs_webserver_port,Web Server Port,Webserver-Port,,Webserver Port
@@ -3990,7 +3989,7 @@ INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},Dateipfad ist zu lang: {
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,Enthaltene Datei hat ungültigen Namen,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","Eine oder mehrere Dateien haben einen ungültigen Dateinamen. Es sollten nur a-z, A-Z, 0-9, _ oder . Enthalten sein.\nBetrachten Sie den Ausgabebereich für eine Liste.",,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',Enthaltene Datei mit ungültigem Dateinamen: '{0}',,Invalid Included file name output message
-Validate_InvalidFilename,"'{0}' contains invalid filename characters","‚{0}‘ enthält ungültige Zeichen im Dateinamen",,Rename message
+Validate_InvalidFilename,'{0}' contains invalid filename characters,‚{0}‘ enthält ungültige Zeichen im Dateinamen,,Rename message
 roomeditor_selectioncolour,Selection frame colour,Farbe für Auswahl-Frame,,preference name for the selection frame colour for unlocked items in the room editor
 roomeditor_selectionlockedcolour,Locked selection frame colour,Farbe für gesperrten Auswahl-Frame,,preference name for the selection frame colour for locked items in the room editor
 roomeditor_propertiescolour,Properties frame colour,Farbe für Eigenschaften-Frame,,preference name for the properties frame colour for unlocked items in the room editor
@@ -4348,7 +4347,7 @@ RoomEditor_InstanceLockToolTip,Lock Instance,Instanz sperren,,tooltip for instan
 RoomEditor_GraphicLockToolTip,Lock Graphic,Grafik sperren,,tooltip for graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),"Verwenden von Symbolen, die nicht in Schriftart enthalten sind (?)",,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,Bei dieser Schriftart fehlen ein oder mehrere Symbole und diese werden aus anderen Schriftarten ersetzt,,Tooltip
-Font_TooLargeTexPage,Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.,Font ""{0}"" beinhaltet mehr Zeichen"," als auf die Texturseite passen. Einige Zeichen werden nicht zu sehen sein.,,Font too large for texture page warning dialog
+Font_TooLargeTexPage,"Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.","Font ""{0}"" beinhaltet mehr Zeichen, als auf die Texturseite passen. Einige Zeichen werden nicht zu sehen sein.",,Font too large for texture page warning dialog
 Event_Gesture,Gesture,Geste,,Gesture event name
 Event_Gesture_Global,Global,Global,,Gesture event subtype
 Event_Gesture_Tap,Tap,Tippen,,Tap gesture event name
@@ -4506,7 +4505,7 @@ ggs_windowsuap_xbox_live_scid,Service Configuration ID,Servicekonfigurations-ID,
 Proxy_Settings,Proxy Settings,Proxy-Einstellungen,,Proxy settings window title
 Proxy_Address,Proxy,Proxy,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),Proxy-Adresse und Port (http://adresse:port),,proxy address tooltip
-Proxy_Address_Error,Error proxy must using "http://address:port" format,Fehler-Proxy muss "http://address:port"-Format verwenden,,proxy format error message
+Proxy_Address_Error,"Error proxy must using ""http://address:port"" format","Fehler-Proxy muss ""http://address:port""-Format verwenden",,proxy format error message
 Proxy_Error_Title,Error: Invalid proxy setting,Fehler. Ungültige Proxyeinstellung,,proxy error window title
 Proxy_Username,Username,Benutzername,,proxy username label
 Proxy_Username_Tooltip,Proxy username,Proxy-Benutzername,,proxy username tooltip
@@ -4692,7 +4691,7 @@ IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1}-IDE v{0} Steam,,the ide version info
 TileSetEditor_OutputError,Output size unsupported!,Ausgabegröße nicht unterstützt!,,message displayed when the output texture for a tileset will be too large
 TileSetEditor_OutputErrorTooltip,"Output texture size is too large, some tiles may be missing. \nReduce source image or output border sizes","Ausgabetextur ist zu groß, einige Kacheln könnten fehlen. \nVerkleinern Sie die Quelldatei oder die Größe der Ausgabegrenzen.",,tooltip for the ouptut size unsupported error
 Options_PS4ToolsSetupError,PlayStation 4 Tools Missing,PlayStation 4 Tools fehlen,,error dialog title when unable to find a ps4 tool
-Options_PS4ToolsSetupTrophyMessage,Unable to find PlayStation 4 trophy editor.\nPlease update your tools directory.\n{0},"Der PlayStation-4-Trophäen-Editor kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tool-Verzeichnis.\n{0}",,error message when failed to find the trophy editor
+Options_PS4ToolsSetupTrophyMessage,Unable to find PlayStation 4 trophy editor.\nPlease update your tools directory.\n{0},Der PlayStation-4-Trophäen-Editor kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tool-Verzeichnis.\n{0},,error message when failed to find the trophy editor
 Options_PS4ToolsPreference,Go to PlayStation 4 settings,Zu PlayStation 4-Einstellungen gehen,,button message to take user to PS4 preferences
 Options_PS4ToolsSetupParamSFOMessage,Unable to find PlayStation 4 param.sfo editor.\nPlease update your tools directory.\n{0},Der PlayStation-4-PARAM.SFO-Editor kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tool-Verzeichnis.\n{0},,error message when failed to find the param.sfo editor
 Options_PS4ToolsSetupShareParamMessage,Unable to find PlayStation 4 share file editor.\nPlease update your tools directory.\n{0},Der PlayStation-4-Dateifreigaben-Editor kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tool-Verzeichnis.\n{0},,error message when failed to find the param.sfo editor
@@ -5158,8 +5157,8 @@ ggs_top_shelf_wide_2x,Top Shelf Image Wide 2x,Top-Shelf-Bild breit 2x,,Splash Sc
 ggs_icon_400_2x,400x240 Icon 2x,400x240-Symbol 2x,,400x240 Icon 2x
 ggs_splash_screen_2x,Splash Screen Image 2x,Splashscreen-Bild 2x,,Splash Screen Image 2x
 ggs_xboxone_stats_system,Stats configuration system,Statistik-Konfigurationssystem,,Stats configuration system
-ggs_xboxone_stats_2017,Title-Managed Stats ("Stats 2017"),Titelverwaltete Statistiken ("Stats 2017"),,the radio group option for 2017 stats
-ggs_xboxone_stats_2013,Event-Based Stats ("Stats 2013"),Event-basierte Statistiken ("Stats 2013"),,the radio group option for 2013 stats
+ggs_xboxone_stats_2017,"Title-Managed Stats (""Stats 2017"")","Titelverwaltete Statistiken (""Stats 2017"")",,the radio group option for 2017 stats
+ggs_xboxone_stats_2013,"Event-Based Stats (""Stats 2013"")","Event-basierte Statistiken (""Stats 2013"")",,the radio group option for 2013 stats
 ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,Das 2013er-System wird von Microsoft nicht mehr unterstützt und sollte nur für bereits in Entwicklung befindliche Titel verwendet werden. \nDas 2017er-System erfordert nicht länger ein Dienst-Manifest\nWeitere Einzelheiten finden Sie in der Microsoft-Dokumentation,,tooltip for the stats sytem radio group
 $win_LaptopRHSKeys,Right Control and Right Alt,Rechte Steuerungstaste und rechte Alt-Taste,,Windows version of laptop mode keys
 $mac_LaptopRHSKeys,Right Command and Right Alt,Rechte Befehlstaste und rechte Alt-Taste,,Mac version of laptop mode keys
@@ -5513,18 +5512,18 @@ ggs_ipad_landscape_1024_748,iPad iOS 5/6 landscape without status,iPad iOS 5/6 Q
 ggs_ipad_portrait_768_1004,iPad iOS 5/6 portrait without status,iPad iOS 5/6 Hochformat ohne Status,,iPad iOS 5/6 portrait without status
 ggs_ipad_landscape_2048_1496,iPad iOS 5/6 2x landscape without status,iPad iOS 5/6 2x Querformat ohne Status,,iPad iOS 5/6 2x landscape without status
 ggs_ipad_portrait_1536_2008,iPad iOS 5/6 2x portrait without status,iPad iOS 5/6 2x Hochformat ohne Status,,iPad iOS 5/6 2x portrait without status
-exception_faq_button_caption,"To see what data this report contains, <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>""","Um zu sehen, welche Daten dieser Bericht enthält, <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">klicken Sie hier</a>""",,exception faq button caption
+exception_faq_button_caption,"To see what data this report contains, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>","Um zu sehen, welche Daten dieser Bericht enthält, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">klicken Sie hier</a>",,exception faq button caption
 exception_problem_header_caption,Please tell us about this problem.,Bitte teilen Sie uns dieses Problem mit.,,exception problem header caption
 exception_send_caption,Send,Senden,,exception send button caption
 exception_dont_send_caption,Don't Send,Nicht senden,,exception dont send button caption
 exception_privacy_policy_caption,Privacy Policy,Datenschutzbestimmungen,,exception privacy policy
 exception_upload_caption,Upload Status,Upload-Status,,exception form confirmation box caption
 exception_upload_confirmation,Upload Successful.,Upload erfolgreich.,,exception form confirmation box message
-Package_Local_ValidationError,Please enter a Display Name and Package ID\nPackage ID should be a valid filename,"Bitte geben Sie einen Anzeigenamen und eine Paket-ID ein\nDie Paket-ID sollte ein gültiger Dateiname sein",,local package create validation message
+Package_Local_ValidationError,Please enter a Display Name and Package ID\nPackage ID should be a valid filename,Bitte geben Sie einen Anzeigenamen und eine Paket-ID ein\nDie Paket-ID sollte ein gültiger Dateiname sein,,local package create validation message
 Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,"Dieselbe Transformation auf die Position des Sprites anwenden\nDies ist nur optional, wenn die Sprite-Position benutzerdefiniert und entsperrt ist",,Sprite origin resize/scale tooltip
 exception_fatal_error_header_caption,A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.,"In GameMaker ist eine schwerwiegende Ausnahme aufgetreten, und das Programm muss geschlossen werden.\n\nWir entschuldigen uns für die Unannehmlichkeiten.",,exception fatal error header caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.","Es wurde ein Fehlerbericht erstellt, damit wir solche Probleme untersuchen und verhindern können. Es wäre sehr hilfreich, wenn Sie uns weitere Einzelheiten zum Kontext dieses Ereignisses mitteilen könnten. Insbesondere, woran Sie unmittelbar zuvor gearbeitet haben.\n\nWichtig\nBeim Drücken auf Senden erklären Sie sich damit einverstanden, dass wir die unten angeführten Daten gemäß unserer Datenschutzrichtlinie verarbeiten.",,exception blurb
-exception_legal_blurb,"Our <a href="https://www.yoyogames.com/legal/privacy">Privacy Policy</a> and <a href="https://www.yoyogames.com/legal/cookies">Cookie Policy</a> governs the way we collect,  store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent,  you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data,  please email our data controller at <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>\n\nForm version: ","Unsere  <a href="https://www.yoyogames.com/legal/privacy">Datenschutz-</a> und <a href="https://www.yoyogames.com/legal/cookies">Cookie-Richtlinien</a> bestimmen die Art und Weise, wie wir, speichern und verarbeiten Sie Ihre Daten. Wir empfehlen Ihnen dringend, sich die Zeit zu nehmen, diese zu lesen.\n\nWiderrufsrecht: Sie haben das Recht, die Einwilligung jederzeit zu widerrufen. Wenn Sie die Einwilligung widerrufen möchten,  können Sie dies über unser Preference Center tun, oder indem Sie ein Ticket für unseren Helpdesk erstellen.\n\nWenn Sie Bedenken bezüglich der Verwendung Ihrer Daten haben, senden Sie bitte eine E-Mail an unseren Datenverantwortlichen unter <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>\n\nFormularversion: ",,exception legal blurb
+exception_legal_blurb,"Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect,  store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent,  you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data,  please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nForm version: ","Unsere  <a href=""https://www.yoyogames.com/legal/privacy"">Datenschutz-</a> und <a href=""https://www.yoyogames.com/legal/cookies"">Cookie-Richtlinien</a> bestimmen die Art und Weise, wie wir, speichern und verarbeiten Sie Ihre Daten. Wir empfehlen Ihnen dringend, sich die Zeit zu nehmen, diese zu lesen.\n\nWiderrufsrecht: Sie haben das Recht, die Einwilligung jederzeit zu widerrufen. Wenn Sie die Einwilligung widerrufen möchten,  können Sie dies über unser Preference Center tun, oder indem Sie ein Ticket für unseren Helpdesk erstellen.\n\nWenn Sie Bedenken bezüglich der Verwendung Ihrer Daten haben, senden Sie bitte eine E-Mail an unseren Datenverantwortlichen unter <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nFormularversion: ",,exception legal blurb
 GameOptions_Extensions,Extensions,Erweiterungen,,Extensions node label
 ggs_enable_apple_sign_in,Enable Sign In with Apple,Anmeldung mit Apple aktivieren,,Enable Sign In with Apple
 ggs_android_application_tag_inject,Inject to Android Application Tag,In Android-Anwendungstag einfügen,,Inject to Android Application Tag
@@ -5857,7 +5856,7 @@ Particle Systems,Particle Systems,Partikelsysteme,,Particle Systems preference g
 Static Variables,Static Variables,Statische Variablen,,Static Variables preference group subheading
 SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,"Nur Funktionen, die als Konstruktoren deklariert sind, können Vererbung verwenden.",,syntax error
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},Unbekannter Funktionsattribut {0},,syntax error
-SyntaxError_InheritedFunctionArguments,Inherited argument "{0}" is not in function arguments,Inhärentes Argument "{0}" ist nicht in Funktionsargumenten,,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","Inhärentes Argument ""{0}"" ist nicht in Funktionsargumenten",,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,Es werden nur 16 benannte Argumente in einer Funktionsdeklaration unterstützt.,,syntax error
 FileFilter_AndroidCreateExeMessage,Save as .aab or .apk,Speichern unter .aab oder .apk,,Save as .aab or .apk
 ggs_ios_launchscreen,Launch Screen,Startbildschirm,,Launch Screen
@@ -6378,8 +6377,8 @@ Category_BasicInfo,Basic Information,Grundlegende Informationen,,inspector categ
 Category_SoundInfo,Sound Information,Soundinformationen,,inspector category label
 Category_InstanceInfo,Instance Information,Instanzinformationen,,inspector category label
 Category_SequenceInfo,Sequence Information,Sequenzinformationen,,inspector category label
-GMScript_DnDBoilerPlate,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction: YoYo Games.Common.Function\n/// @DnDVersion: 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML Boiler plate for a new script
-GMScript_DnDFuncDecl,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction: YoYo Games.Common.Function\n/// @DnDVersion: 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML function declaration template
+GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction: YoYo Games.Common.Function\n/// @DnDVersion: 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
+GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction: YoYo Games.Common.Function\n/// @DnDVersion: 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
 AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,Möchten Sie {0} Assets erstellen?,,label to warn user they are about to create a lot of resources
 AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,Viele Assets erzeugen,,title for warning dialog box
 YoYoImage_UnknownFileFormat,Image format not recognised,Bildformat nicht erkannt,,This image format was not recognised
@@ -6606,7 +6605,7 @@ SeqDopeSheet_AnimCurveLocked2,Unlock asset track in track panel\n to continue ed
 SeqDopeSheet_InvalidCurveMsg2,Add channels to the curve to resolve the issue.,"Fügen Sie der Kurve Kanäle hinzu, um das Problem zu beheben.",,invalid curve text
 SeqDopeSheet_InvalidCurveDetailOK,This will add the appropriate number of channels to the curve to make it compatible with the sequence.,"Fügt der Kurve die entsprechende Anzahl Kanäle hinzu, sodass sie mit der Sequenz kompatibel ist.",,invalid curve detail msg
 SeqDopeSheet_InvalidCurveEdit,Edit the shared curve to fix the issues.,"Bearbeiten Sie die gemeinsame Kurve, um die Probleme zu beheben.",,invalid shared curve edit label
-ACL_ResetTip,Select "Reset" to revert curve to initial state.,"Zurücksetzen" wählen"," um die Kurve in den Ausgangszustand zurückzusetzen.,,anim curve library reset tip
+ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.","""Zurücksetzen"" wählen, um die Kurve in den Ausgangszustand zurückzusetzen.",,anim curve library reset tip
 Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,"Sie haben einen Ordner ausgewählt, der bereits ein anderes GMS2-Projekt enthält - der Import hierher führt die beiden Projekte nicht zusammen. Sind Sie sicher, dass Sie diesen Import als neuen Unterordner innerhalb des bestehenden Projektordners speichern möchten?",,Warning Importing Project message
 Error_CannotPackage_Message,Stop the current running project before creating the executable?,Aktuell ausgeführtes Projekt vor der Erstellung der ausführbaren Datei stoppen?,,Application running error message.
 $linux_explorer,file manager,Dateimanager,,Linux version of explorer
@@ -6656,7 +6655,7 @@ SeqSeqTrack_Plural,Sequence Tracks,Sequenz-Spuren,,sequence instance track type 
 Inspector_Category_Transform,Transform,Transformieren,,Inspector category
 Inspector_Category_CanvasFrame,Canvas Frame,Canvasrahmen,,Inspector category
 Inspector_Category_Parent,Parent,Übergeordnet,,Inspector category
-Inspector_ObjNoEvents,"This Object currently has no Events.\nAdd Events here or via the editor","Dieses Objekt hat derzeit keine Ereignisse.\Fügen Sie Ereignisse hier oder über den Editor hinzu",,no object events inspector label
+Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,Dieses Objekt hat derzeit keine Ereignisse.\Fügen Sie Ereignisse hier oder über den Editor hinzu,,no object events inspector label
 Inspector_OpenEditors,Open Editors,Editoren öffnen,,open multiple editors
 Inspector_Category_Properties,Properties,Eigenschaften,,inspector category
 Inspector_Category_Editors,Editors,Editoren,,inspector category
@@ -6797,10 +6796,10 @@ WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Opera GX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX preference group subheading
 Options_PS5ToolsSetupError,PlayStation 5 Tools Missing,PlayStation 5-Tools fehlen,,error dialog title when unable to find a ps5 tool
-Options_PS5ToolsSetupTrophyMessage,"Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0}","Der PlayStation 5-Trophäen-Editor kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tools-Verzeichnis.\n{0}",,error message when failed to find the trophy editor
+Options_PS5ToolsSetupTrophyMessage,Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0},Der PlayStation 5-Trophäen-Editor kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tools-Verzeichnis.\n{0},,error message when failed to find the trophy editor
 Options_PS5ToolsPreference,Go to PlayStation 5 settings,Zu Einstellungen von PlayStation 5 gehen,,button message to take user to PS5 preferences
-Options_PS5ToolsSetupParamSFOMessage,"Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0}","Editor param.sfo von PlayStation 5 kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tools-Verzeichnis.\n{0}",,error message when failed to find the param.sfo editor
-Options_PS5ToolsSetupShareParamMessage,"Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0}","Der Editor zum Teilen von Dateien von PlayStation 5 kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tools-Verzeichnis.\n{0}",,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupParamSFOMessage,Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},Editor param.sfo von PlayStation 5 kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tools-Verzeichnis.\n{0},,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupShareParamMessage,Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},Der Editor zum Teilen von Dateien von PlayStation 5 kann nicht gefunden werden.\nBitte aktualisieren Sie Ihr Tools-Verzeichnis.\n{0},,error message when failed to find the param.sfo editor
 SyntaxError_SameArgument,argument name {0} already used in function declaration,Argumentname {0} bereits in Funktionsdeklaration verwendet,,syntax error
 ConfigurationProblem_PS5SDK,Configuration Problem : PS5 SDK not found. Check your Preferences.,Konfigurationsproblem: PS5 SDK nicht gefunden Prüfen Sie Ihre Einstellungen.,,Configuration Problem : PS5 SDK not found. Check your Preferences.
 ConfigurationProblem_PS5Tools,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,Konfigurationsproblem: PS5 Tools-Verzeichnis nicht gefunden Prüfen Sie Ihre Einstellungen.,,Configuration Problem : PS5 Tools directory not found. Check your Preferences.
@@ -6920,7 +6919,7 @@ SoundEditor_OggLabel,Conversion (for OGG only):,Konvertierung (nur für OGG):,,O
 SourceControlConflictsDetectedOnLoad,"There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?","Es gibt Konflikte innerhalb dieses Projekts. Wenn Sie mir dem Laden fortfahren, kann es zu Defekten führen. Es wird empfohlen, die Git-Konflikte vorher zu lösen. Möchten Sie mit dem Laden fortfahren?",,Conflicts Detected message on opening a project
 TextureGroups_CompressBZ2,BZ2 Compress,BZ2 Compress,,Texture group compression checkbox label
 UserLogin_OperaAccount,Opera Account,Opera-Konto,,opera account
-UserLogin_OperaLoginInfo,"Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked","Verwenden Sie Ihr Opera-Konto, um sich bei YoYo Accounts anzumelden.\nBeide Konten müssen verknüpft sein",,opera login info text
+UserLogin_OperaLoginInfo,Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked,"Verwenden Sie Ihr Opera-Konto, um sich bei YoYo Accounts anzumelden.\nBeide Konten müssen verknüpft sein",,opera login info text
 UserLogin_LinkAccountsAt,Link your accounts at,Verknüpfen Sie Ihre Konten unter,,link accounts info label
 UserLogin_OperaSSO,Opera Single Sign-In,Opera einmalige Anmeldung,,single sign in button label
 UserLogin_ForgottenPassword,Forgotten password?,Passwort vergessen?,,login forgotten password label
@@ -6949,7 +6948,7 @@ ggs_template_desc,Description,Beschreibung,,project template description
 mytemplateprojectslocation,Template Projects directory,Verzeichnis der Vorlagenprojekte,,user Template Projects location setting
 pref_laptop_mode,Force Laptop mode,Laptop-Modus erzwingen,,Preference to force the laptop mode on or off
 ggs_game_guid_change_confirmation,Are you sure to change the GUID?,Möchten Sie die GUID wirklich ändern?,,Confirmation of changing the game GUID
-Project_Changes_OnRepairing,"The project files were corrupted. The changes were applied. Do you want to save the changes?","Die Projektdateien wurden beschädigt. Die Änderungen wurden übernommen. Möchten Sie die Änderungen speichern?",,Project was corrupted and changed by the IDE to fix it
+Project_Changes_OnRepairing,The project files were corrupted. The changes were applied. Do you want to save the changes?,Die Projektdateien wurden beschädigt. Die Änderungen wurden übernommen. Möchten Sie die Änderungen speichern?,,Project was corrupted and changed by the IDE to fix it
 GMLVisualModule_AddComment,Comment...,Kommentar...,,Add a comment to a GML Visual script
 operagx_synchronized,Synchronizing with Opera GX...,Synchronisieren mit Opera GX...,,Output Message on starting synchronizing with OperaGX
 operagx_failed_to_refresh_token,failed to refresh token... logout of GameMaker and login again,Aktualisierung des Tokens fehlgeschlagen... aus GameMaker ausloggen und erneut einloggen,,Output Message tracking Packaging for OperaGX process
@@ -6962,7 +6961,7 @@ opera_sync_empty_guid,The GUID is empty. The project will be registered on GXC a
 opera_sync_syncronization_on,Synchronization...,Synchronisierung...,,Synchronization button label during synchronization process
 opera_sync_synchronize,Synchronize,Synchronisieren,,Synchronization button label when the user is logged in
 opera_sync_signin_and_synchronize,Sign-in and synchronize,Anmelden und synchronisieren,,Synchronization button label when the user is not logged in
-opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC","Mit der angegebenen GUID können Sie die Spieleinstellungen nur auf GXC ändern.",,Tip for the user for a valid GUID
+opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC",Mit der angegebenen GUID können Sie die Spieleinstellungen nur auf GXC ändern.,,Tip for the user for a valid GUID
 opera_sync_guid_not_valid_format,GUID format is not valid,Ungültiges GUID-Format,,Tip for an invalid GUID
 opera_sync_incorrect_data,Incorrect data. Check the output,Falsche Daten. Prüfen Sie die Ausgabe,,Incorrect data warning message
 xbox_package_xbone,Xbox One package,Xbox One Paket,,Package built for Xbox One consoles
@@ -6979,17 +6978,17 @@ StartScreen_TourIntro_Desc1,The START page is where you can access all you need 
 StartScreen_TourIntro_DescA,Hover over any of the below areas marked with a,Bewegen Sie den Mauszeiger über einen der untenstehenden Bereiche mit der Markierung,,start screen tour label
 StartScreen_TourIntro_DescB,to find out more and explore.,um mehr zu erfahren und zu erkunden.,,start screen tour label
 StartScreen_TourIntro_Desc2,Hover over any of the below areas marked with a   #   to find out more and explore.,"Bewegen Sie den Mauszeiger über einen der unten mit einem   #   gekennzeichneten Bereiche, um mehr zu erfahren und zu erkunden.",,format test
-StartScreen_TourTitle_1,"""New Project""","„Neues Projekt“",,start screen tour label
-StartScreen_TourTitle_2,"""Open Project""","„Projekt öffnen“",,start screen tour label
-StartScreen_TourTitle_3,"""Import Project""","„Projekt importieren“",,start screen tour label
-StartScreen_TourTitle_4,"""Tutorials""","„Tutorials“",,start screen tour label
-StartScreen_TourTitle_5,"""Recent Projects""","„Letzte Projekte“",,start screen tour label
+StartScreen_TourTitle_1,"""New Project""",„Neues Projekt“,,start screen tour label
+StartScreen_TourTitle_2,"""Open Project""",„Projekt öffnen“,,start screen tour label
+StartScreen_TourTitle_3,"""Import Project""",„Projekt importieren“,,start screen tour label
+StartScreen_TourTitle_4,"""Tutorials""",„Tutorials“,,start screen tour label
+StartScreen_TourTitle_5,"""Recent Projects""",„Letzte Projekte“,,start screen tour label
 StartScreen_SkipTourWiz,SKIP to Setup Wizard,SPRINGEN zum Setup-Assistenten,,start screen tour label
 StartScreen_SkipTour,SKIP Tour,Tour ÜBERSPRINGEN,,start screen skip tour label
-StartScreen_TourDesc_1,"Start from scratch with a new empty project or start from a template; one we've included or one of your own","Beginnen Sie mit einem neuen leeren Projekt oder mit einer Vorlage, die wir Ihnen zur Verfügung gestellt haben, oder mit einer eigenen Vorlage.",,start screen tour label
-StartScreen_TourDesc_2,"Open a project you've already started and continue from when your last saved","Öffnen Sie ein Projekt, das Sie bereits begonnen haben, und setzen Sie es an der Stelle fort, an der Sie es zuletzt gespeichert haben.",,start screen tour label
-StartScreen_TourDesc_3,"Import a project that has previously been exported or is from a legacy version of GameMaker","Importieren Sie ein Projekt, das zuvor exportiert wurde oder aus einer älteren Version von GameMaker stammt",,start screen tour label
-StartScreen_TourDesc_4,"Browse all of the available tutorials through your web browser","Durchsuchen Sie alle verfügbaren Tutorials über Ihren Webbrowser",,start screen tour label
+StartScreen_TourDesc_1,Start from scratch with a new empty project or start from a template; one we've included or one of your own,"Beginnen Sie mit einem neuen leeren Projekt oder mit einer Vorlage, die wir Ihnen zur Verfügung gestellt haben, oder mit einer eigenen Vorlage.",,start screen tour label
+StartScreen_TourDesc_2,Open a project you've already started and continue from when your last saved,"Öffnen Sie ein Projekt, das Sie bereits begonnen haben, und setzen Sie es an der Stelle fort, an der Sie es zuletzt gespeichert haben.",,start screen tour label
+StartScreen_TourDesc_3,Import a project that has previously been exported or is from a legacy version of GameMaker,"Importieren Sie ein Projekt, das zuvor exportiert wurde oder aus einer älteren Version von GameMaker stammt",,start screen tour label
+StartScreen_TourDesc_4,Browse all of the available tutorials through your web browser,Durchsuchen Sie alle verfügbaren Tutorials über Ihren Webbrowser,,start screen tour label
 StartScreen_TourDesc_5,"An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently","Ein Bereich, in dem alle Projekte angezeigt werden, die Sie in letzter Zeit geöffnet haben. Es kann einfacher sein, Ihr Projekt von hier aus auszuwählen, anstatt die Schaltfläche „Öffnen“ oben zu verwenden, wenn Sie ein Projekt, an dem Sie kürzlich gearbeitet haben, erneut öffnen möchten.",,start screen tour label
 StartScreen_ChooseTemplate,CHOOSE YOUR TEMPLATE,WÄHLEN SIE IHRE VORLAGE,,start screen label
 StartScreen_SelectTemplate,Please select a project template,Wählen Sie bitte eine Projektvorlage,,start screen label
@@ -7005,7 +7004,7 @@ SS_ProjectLocationLabel,Location:,Speicherort:,,start screen project location la
 SS_ProjDirInUse,Project directory name already exists,Name Projektverzeichnis ist bereits vorhanden,,proj dir in use warning
 StartScreen_WizardTitle,Set Up Wizard,Einrichtungsassistent,,setup wizard title
 SS_WizardStepNum,Step {0} of {1},Schritt {0} von {1},,setup wizard label
-SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.","Beginnen Sie mit der Einrichtung Ihres ersten Projekts.\nKlicken Sie zunächst auf die Schaltfläche mit der Aufschrift „NEU“.",,setup wizard label
+SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.",Beginnen Sie mit der Einrichtung Ihres ersten Projekts.\nKlicken Sie zunächst auf die Schaltfläche mit der Aufschrift „NEU“.,,setup wizard label
 SS_Wizard_StepDesc_2,"Select a template below, or choose BLANK to start a fresh new project","Wählen Sie unten eine Vorlage aus, oder wählen Sie BLANKO, um ein neues Projekt zu beginnen",,setup wizard label
 SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!","Geben Sie Ihrem Projekt einen Namen, wählen Sie einen Speicherort, und legen Sie einfach los!",,setup wizard label
 SS_Wizard_DontShowAgain,Don't show me again,Nicht erneut anzeigen,,dont show again label
@@ -7168,15 +7167,15 @@ runtime_dns_DnsTestHasFailed,DNS test has failed,DNS-Prüfung ist fehlgeschlagen
 runtime_dns_DnsTestHasFailedMessage,DNS resolving test has failed with the current settings. Alternative DNS has been disabled,DNS-Auflösungsprüfung ist mit den aktuellen Einstellungen fehlgeschlagen. Alternatives DNS wurde deaktiviert,,A warning which is shown after failing the DNS test
 runtime_dns_ResolvingFailed,DNS resolving has failed,DNS-Auflösung ist fehlgeschlagen,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
 runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,{0} konnte nicht mit einem alternativen DNS gelöst werden. Ein System-DNS wurde verwendet,,Could not use an alternative DNS
-runtime_empty_dns_warning,"No DNS IP specified - the runtime feeds will be resolved against a system DNS","Kein DNP-IP festgelegt - die Laufzeit-Feeds werden gegen ein System-DNS aufgelöst",,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
+runtime_empty_dns_warning,No DNS IP specified - the runtime feeds will be resolved against a system DNS,Kein DNP-IP festgelegt - die Laufzeit-Feeds werden gegen ein System-DNS aufgelöst,,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
 ProgressBar_DnsTest,Testing DNS...,DNS wird getestet...,,A title of the progress bar
 GoTo_Pref_RedefineKeys,Search in Redefine Keys,Suche in umdefinierten Tasten,,search redfine keys pref
-SS_Wizard_StepDesc_3BlankA,"You've selected 'New Blank' template.","Sie haben die Vorlage „neuer Vordruck“ ausgewählt.",,setup wizard label
+SS_Wizard_StepDesc_3BlankA,You've selected 'New Blank' template.,Sie haben die Vorlage „neuer Vordruck“ ausgewählt.,,setup wizard label
 SS_NewDescHeader,Description:,Beschreibung:,,start screen new project description
 SS_NewDesc,Create an empty GameMaker project. Build your game up from a blank canvas.,Erstellen Sie ein leeres GameMaker-Projekt. Bauen Sie Ihr Spiel auf einem leeren Canvas.,,start screen new project description
 SS_NewInfoHeader,Other Info:,Sonstige Info:,,start screen new project description
 SS_NewInfo,Set your scripting preference in Game Options/Preferences.,Stellen Sie Ihre Skripting-Präferenz in Spiel-Optionen/Einstellungen ein.,,start screen new project description
-Validate_InvalidPathTooLong,"Path is too long: '{0}'.","Der Pfad ist zu lang: '{0}'.",,Rename message
+Validate_InvalidPathTooLong,Path is too long: '{0}'.,Der Pfad ist zu lang: '{0}'.,,Rename message
 Visual Editor,Visual Editor,Visual Editor,,Visual Editor preference group subheading
 GMLVisual,GML Visual,GML Visual,,GML Visual preference group subheading
 FileFilter_TemplateProject,GameMaker Project Template,GameMaker-Projektvorlage,,template project filter
@@ -7186,91 +7185,91 @@ ScriptType_SelectLang_Info,Note: This can be changed at any time,Note: Diese kan
 ScriptType_Code,GML CODE,GML CODE,,code scripting type
 ScriptType_Visual,GML VISUAL,GML VISUAL,,visual scripting type
 ScriptType_CodeDesc,"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.","Programmieren Sie Ihr Spiel mit der einfachen Coding-Syntax und den leistungsfähigen objektorientierten Sprachfunktionen von GML, geeignet für Programmieranfänger und für erfahrene Programmierer mit Kenntnissen in den Standardsprachen der Branche.",,code script type description
-ScriptType_VisualDesc,"Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.","Programmieren Sie Ihr Spiel mit Aktionen. Lernen Sie das Programmieren anhand von visuellen Blocks. Werfen Sie einen Blick auf Ihre Aktionen und konvertieren Sie den Code jederzeit.",,visual script type description
+ScriptType_VisualDesc,Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.,Programmieren Sie Ihr Spiel mit Aktionen. Lernen Sie das Programmieren anhand von visuellen Blocks. Werfen Sie einen Blick auf Ihre Aktionen und konvertieren Sie den Code jederzeit.,,visual script type description
 ScriptType_DontAskProject,Don't ask again for this project,Nicht mehr für dieses Projekt fragen,,dont ask again this project
 ScriptType_DontAskEver,Don't ask again ever,Nie mehr fragen,,dont ask again all projects
 ListBoxEnum_eDefaultScriptType_None,Always Ask,Immer fragen,,default script type none
 ListBoxEnum_eDefaultScriptType_GML,GML Code,GML Code,,default script type gml
 ListBoxEnum_eDefaultScriptType_GMLVisual,GML Visual,GML Visual,,default script type GML Visual
 default_script_pref,Default scripting language,Standard-Skripting-Sprache,,default scripting language preference
-GMStdCatTime,"Time","Zeit",,GML Visual library category name
-GMStdTimeSource,"Time Source","Zeitquelle",,GML Visual library argument label
-GMStdParent,"Parent","Übergeordnet",,GML Visual library argument label
-GMStdPeriod,"Period","Punkt",,GML Visual library argument label
-GMStdUnits,"Units","Einheiten",,GML Visual library argument label
-GMStdCallback,"Callback","Callback",,GML Visual library argument label
-GMStdReps,"Repetitions","Wiederholungen",,GML Visual library argument label
-GMStdExpiryType,"Expiry Type","Ablauf-Typ",,GML Visual library argument label
-GMStdVar_time_source_global,"Global Time Source","Globale Zeitquelle",,GML Visual argument value
-GMStdVar_time_source_game,"Game Time Source","Spiel-Zeitquelle",,GML Visual argument value
-GMStdVar_time_source_units_seconds,"Seconds","Sekunden",,GML Visual argument value
-GMStdVar_time_source_units_frames,"Frames","Frames",,GML Visual argument value
-GMStdVar_time_source_expire_nearest,"Nearest","Am nächsten",,GML Visual argument value
-GMStdVar_time_source_expire_after,"After","Nach",,GML Visual argument value
-GMStdVar_time_source_state_initial,"Initial","Anfang",,GML Visual argument value
-GMStdVar_time_source_state_active,"Active","Aktiv",,GML Visual argument value
-GMStdVar_time_source_state_paused,"Paused","Angehalten",,GML Visual argument value
-GMStdVar_time_source_state_stopped,"Stopped","Gestoppt",,GML Visual argument value
-GMStdTimeSourceCreate_Name,"Create Time Source","Zeitquelle erstellen",,GML Visual action name
-GMStdTimeSourceCreate_Desc,"Create a time source.","Erstellen Sie eine Zeitquelle.",,GML Visual action description
-GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","Eine Zeitquelle erstellen und diese ${idx} zuweisen",,GML Visual story text
-GMStdTimeSourceDestroy_Name,"Destroy Time Source","Zeitquelle löschen",,GML Visual action name
-GMStdTimeSourceDestroy_Desc,"Destroy a time source.","Löschen Sie eine Zeitquelle.",,GML Visual action description
-GMStdTimeSourceStart_Name,"Start Time Source","Zeitquelle starten",,GML Visual action name
-GMStdTimeSourceStart_Desc,"Start a time source.","Starten Sie eine Zeitquelle.",,GML Visual action description
-GMStdTimeSourceStart_Story,"Start time source ${idx}","Zeitquelle ${idx} starten",,GML Visual story text
-GMStdTimeSourceStop_Name,"Stop Time Source","Zeitquelle stoppen",,GML Visual action name
-GMStdTimeSourceStop_Desc,"Stop a time source.","Stoppen Sie eine Zeitquelle.",,GML Visual action description
-GMStdTimeSourceStop_Story,"Stop time source ${idx}","Zeitquelle ${idx} stoppen",,GML Visual story text
-GMStdTimeSourcePause_Name,"Pause Time Source","Zeitquelle pausieren",,GML Visual action name
-GMStdTimeSourcePause_Desc,"Pause a time source.","Pausieren Sie eine Zeitquelle.",,GML Visual action description
-GMStdTimeSourcePause_Story,"Pause time source ${idx}","Zeitquelle ${idx} pausieren",,GML Visual story text
-GMStdTimeSourceReset_Name,"Reset Time Source","Zeitquelle zurücksetzen",,GML Visual action name
-GMStdTimeSourceReset_Desc,"Reset a time source.","Setzen Sie eine Zeitquelle zurück.",,GML Visual action description
-GMStdTimeSourceReset_Story,"Reset time source ${idx}","Zeitquelle ${idx} zurücksetzen",,GML Visual story text
-GMStdTimeSourceReconfigure_Name,"Reconfigure Time Source","Zeitquelle rekonfigurieren",,GML Visual action name
-GMStdTimeSourceReconfigure_Desc,"Reset and reconfigure a time source.","Setzen Sie eine Zeitquelle zurück und rekonfigurieren Sie diese.",,GML Visual action description
-GMStdTimeSourceReconfigure_Story,"Reset and reconfigure time source ${idx}","Eine Zeitquelle ${idx} zurücksetzen und rekonfigurieren",,GML Visual story text
-GMStdTimeSourceGetPeriod_Name,"Get Period","Punkt abrufen",,GML Visual action name
-GMStdTimeSourceGetPeriod_Desc,"Get the period of a time source.","Rufen Sie den Punkt einer Zeitquelle ab.",,GML Visual action description
-GMStdTimeSourceGetPeriod_Story,"Get the period of time source ${idx} and assign it to ${var}","Den Punkt einer Zeitquelle abrufen und diesen ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceGetRepsCompleted_Name,"Get Reps Completed","Abgeschlossene Wiederholungen abrufen",,GML Visual action name
-GMStdTimeSourceGetRepsCompleted_Desc,"Get the number of repetitions a time source has completed.","Rufen Sie die Anzahl der von einer Zeitquelle abgeschlossenen Wiederholungen ab.",,GML Visual action description
-GMStdTimeSourceGetRepsCompleted_Story,"Get the number of completed repetitions of time source ${idx} and assign it to ${var}","Die Anzahl der abgeschlossenen Wiederholungen einer Zeitquelle ${idx} abrufen und diese ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceGetRepsRemaining_Name,"Get Reps Remaining","Ausbleibende Wiederholungen abrufen",,GML Visual action name
-GMStdTimeSourceGetRepsRemaining_Desc,"Get the number of repetitions a time source has remaining.","Rufen Sie die Anzahl der von einer Zeitquelle verbleibenden Wiederholungen ab.",,GML Visual action description
-GMStdTimeSourceGetRepsRemaining_Story,"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}","Die Anzahl der verbleibenden Wiederholungen einer Zeitquelle ${idx} abrufen und diese ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceGetUnits_Name,"Get Units","Einheiten abrufen",,GML Visual action name
-GMStdTimeSourceGetUnits_Desc,"Get the units of a time source.","Rufen Sie die Einheiten einer Zeitquelle ab.",,GML Visual action description
-GMStdTimeSourceGetUnits_Story,"Get the units of time source ${idx} and assign it to ${var}","Die Einheiten einer Zeitquelle abrufen und diese ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceGetTimeRemaining_Name,"Get Time Remaining","Restdauer abrufen",,GML Visual action name
-GMStdTimeSourceGetTimeRemaining_Desc,"Get the time remaining on a time source.","Rufen Sie die Restdauer einer Zeitquelle ab.",,GML Visual action description
-GMStdTimeSourceGetTimeRemaining_Story,"Get the time remaining on time source ${idx} and assign it to ${var}","Die Restdauer einer Zeitquelle ${idx} abrufen und diese ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceGetState_Name,"Get State","Status abrufen",,GML Visual action name
-GMStdTimeSourceGetState_Desc,"Get the current state of a time source.","Rufen Sie den aktuellen Status einer Zeitquelle ab.",,GML Visual action description
-GMStdTimeSourceGetState_Story,"Get the current state of time source ${idx} and assign it to ${var}","Den aktuellen Status einer Zeitquelle abrufen und diese ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceGetParent_Name,"Get Parent","Parent abrufen",,GML Visual action name
-GMStdTimeSourceGetParent_Desc,"Get the parent of a time source.","Rufen Sie den Parent einer Zeitquelle ab.",,GML Visual action description
-GMStdTimeSourceGetParent_Story,"Get the parent of time source ${idx} and assign it to ${var}","Den Parent einer Zeitquelle abrufen und diese ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceGetChildren_Name,"Get Children","Children abrufen",,GML Visual action name
-GMStdTimeSourceGetChildren_Desc,"Get the children of a time source.","Rufen Sie die Children einer Zeitquelle ab.",,GML Visual action description
-GMStdTimeSourceGetChildren_Story,"Get the children of time source ${idx} and assign it to ${var}","Die Children einer Zeitquelle abrufen und diese ${var} zuweisen",,GML Visual story text
-GMStdTimeSourceExists_Name,"If Time Source Exists","Wenn Zeitquelle vorhanden ist",,GML Visual action name
-GMStdTimeSourceExists_Desc,"Check if a time source exists.","Prüfen Sie, ob eine Zeitquelle vorhanden ist.",,GML Visual action description
-GMStdTimeSourceExists_Story_1,"If time source ${idx} exists","Wenn Zeitquelle ${idx} vorhanden ist",,GML Visual story text
-GMStdTimeSourceExists_Story_2,"If time source ${idx} does not exist","Wenn Zeitquelle ${idx} nicht vorhanden ist",,GML Visual story text
-GMStdIfTimeSourceState_Name,"If State","Wenn Status",,GML Visual action name
-GMStdIfTimeSourceState_Desc,"Check if a time source's state satisfies a condition.","Prüfen Sie, ob der Status der Zeitquelle eine Bedingung erfüllt.",,GML Visual action description
-GMStdIfTimeSourceState_Story_1,"If the state of time source ${idx} is ${state}","Wenn der Status der Zeitquelle${idx} ${state} ist",,GML Visual story text
-GMStdIfTimeSourceState_Story_2,"If the state of time source ${idx} is not ${state}","Wenn der Status der Zeitquelle${idx}nicht ${state} ist",,GML Visual story text
-GMStdIfTimeSourceUnits_Name,"If Units","Wenn Einheiten",,GML Visual action name
-GMStdIfTimeSourceUnits_Desc,"Check if a time source's units satisfies a condition.","Prüfen Sie, ob die Einheiten der Zeitquelle eine Bedingung erfüllen.",,GML Visual action description
-GMStdIfTimeSourceUnits_Story_1,"If the units of time source ${idx} are ${units}","Wenn die Einheiten der Zeitquelle ${idx} ${units} sind",,GML Visual story text
-GMStdIfTimeSourceUnits_Story_2,"If the units of time source ${idx} are not ${units}","Wenn die Einheiten der Zeitquelle ${idx} nicht ${units} sind",,GML Visual story text
-GMStdIfTimeSourceParent_Name,"If Parent","Wenn Parent",,GML Visual action name
-GMStdIfTimeSourceParent_Desc,"Check if a time source's parent satisfies a condition.","Prüfen Sie, ob der Parent der Zeitquelle eine Bedingung erfüllt.",,GML Visual action description
-GMStdIfTimeSourceParent_Story_1,"If the parent of time source ${idx} is ${parent}","Wenn der Parent der Zeitquelle ${idx} ${parent} ist",,GML Visual story text
-GMStdIfTimeSourceParent_Story_2,"If the parent of time source ${idx} is not ${parent}","Wenn der Parent der Zeitquelle ${idx} nicht ${parent} ist",,GML Visual story text
+GMStdCatTime,Time,Zeit,,GML Visual library category name
+GMStdTimeSource,Time Source,Zeitquelle,,GML Visual library argument label
+GMStdParent,Parent,Übergeordnet,,GML Visual library argument label
+GMStdPeriod,Period,Punkt,,GML Visual library argument label
+GMStdUnits,Units,Einheiten,,GML Visual library argument label
+GMStdCallback,Callback,Callback,,GML Visual library argument label
+GMStdReps,Repetitions,Wiederholungen,,GML Visual library argument label
+GMStdExpiryType,Expiry Type,Ablauf-Typ,,GML Visual library argument label
+GMStdVar_time_source_global,Global Time Source,Globale Zeitquelle,,GML Visual argument value
+GMStdVar_time_source_game,Game Time Source,Spiel-Zeitquelle,,GML Visual argument value
+GMStdVar_time_source_units_seconds,Seconds,Sekunden,,GML Visual argument value
+GMStdVar_time_source_units_frames,Frames,Frames,,GML Visual argument value
+GMStdVar_time_source_expire_nearest,Nearest,Am nächsten,,GML Visual argument value
+GMStdVar_time_source_expire_after,After,Nach,,GML Visual argument value
+GMStdVar_time_source_state_initial,Initial,Anfang,,GML Visual argument value
+GMStdVar_time_source_state_active,Active,Aktiv,,GML Visual argument value
+GMStdVar_time_source_state_paused,Paused,Angehalten,,GML Visual argument value
+GMStdVar_time_source_state_stopped,Stopped,Gestoppt,,GML Visual argument value
+GMStdTimeSourceCreate_Name,Create Time Source,Zeitquelle erstellen,,GML Visual action name
+GMStdTimeSourceCreate_Desc,Create a time source.,Erstellen Sie eine Zeitquelle.,,GML Visual action description
+GMStdTimeSourceCreate_Story,Create a time source and assign it to ${idx},Eine Zeitquelle erstellen und diese ${idx} zuweisen,,GML Visual story text
+GMStdTimeSourceDestroy_Name,Destroy Time Source,Zeitquelle löschen,,GML Visual action name
+GMStdTimeSourceDestroy_Desc,Destroy a time source.,Löschen Sie eine Zeitquelle.,,GML Visual action description
+GMStdTimeSourceStart_Name,Start Time Source,Zeitquelle starten,,GML Visual action name
+GMStdTimeSourceStart_Desc,Start a time source.,Starten Sie eine Zeitquelle.,,GML Visual action description
+GMStdTimeSourceStart_Story,Start time source ${idx},Zeitquelle ${idx} starten,,GML Visual story text
+GMStdTimeSourceStop_Name,Stop Time Source,Zeitquelle stoppen,,GML Visual action name
+GMStdTimeSourceStop_Desc,Stop a time source.,Stoppen Sie eine Zeitquelle.,,GML Visual action description
+GMStdTimeSourceStop_Story,Stop time source ${idx},Zeitquelle ${idx} stoppen,,GML Visual story text
+GMStdTimeSourcePause_Name,Pause Time Source,Zeitquelle pausieren,,GML Visual action name
+GMStdTimeSourcePause_Desc,Pause a time source.,Pausieren Sie eine Zeitquelle.,,GML Visual action description
+GMStdTimeSourcePause_Story,Pause time source ${idx},Zeitquelle ${idx} pausieren,,GML Visual story text
+GMStdTimeSourceReset_Name,Reset Time Source,Zeitquelle zurücksetzen,,GML Visual action name
+GMStdTimeSourceReset_Desc,Reset a time source.,Setzen Sie eine Zeitquelle zurück.,,GML Visual action description
+GMStdTimeSourceReset_Story,Reset time source ${idx},Zeitquelle ${idx} zurücksetzen,,GML Visual story text
+GMStdTimeSourceReconfigure_Name,Reconfigure Time Source,Zeitquelle rekonfigurieren,,GML Visual action name
+GMStdTimeSourceReconfigure_Desc,Reset and reconfigure a time source.,Setzen Sie eine Zeitquelle zurück und rekonfigurieren Sie diese.,,GML Visual action description
+GMStdTimeSourceReconfigure_Story,Reset and reconfigure time source ${idx},Eine Zeitquelle ${idx} zurücksetzen und rekonfigurieren,,GML Visual story text
+GMStdTimeSourceGetPeriod_Name,Get Period,Punkt abrufen,,GML Visual action name
+GMStdTimeSourceGetPeriod_Desc,Get the period of a time source.,Rufen Sie den Punkt einer Zeitquelle ab.,,GML Visual action description
+GMStdTimeSourceGetPeriod_Story,Get the period of time source ${idx} and assign it to ${var},Den Punkt einer Zeitquelle abrufen und diesen ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceGetRepsCompleted_Name,Get Reps Completed,Abgeschlossene Wiederholungen abrufen,,GML Visual action name
+GMStdTimeSourceGetRepsCompleted_Desc,Get the number of repetitions a time source has completed.,Rufen Sie die Anzahl der von einer Zeitquelle abgeschlossenen Wiederholungen ab.,,GML Visual action description
+GMStdTimeSourceGetRepsCompleted_Story,Get the number of completed repetitions of time source ${idx} and assign it to ${var},Die Anzahl der abgeschlossenen Wiederholungen einer Zeitquelle ${idx} abrufen und diese ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceGetRepsRemaining_Name,Get Reps Remaining,Ausbleibende Wiederholungen abrufen,,GML Visual action name
+GMStdTimeSourceGetRepsRemaining_Desc,Get the number of repetitions a time source has remaining.,Rufen Sie die Anzahl der von einer Zeitquelle verbleibenden Wiederholungen ab.,,GML Visual action description
+GMStdTimeSourceGetRepsRemaining_Story,Get the number of remaining repetitions of time source ${idx} and assign it to ${var},Die Anzahl der verbleibenden Wiederholungen einer Zeitquelle ${idx} abrufen und diese ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceGetUnits_Name,Get Units,Einheiten abrufen,,GML Visual action name
+GMStdTimeSourceGetUnits_Desc,Get the units of a time source.,Rufen Sie die Einheiten einer Zeitquelle ab.,,GML Visual action description
+GMStdTimeSourceGetUnits_Story,Get the units of time source ${idx} and assign it to ${var},Die Einheiten einer Zeitquelle abrufen und diese ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceGetTimeRemaining_Name,Get Time Remaining,Restdauer abrufen,,GML Visual action name
+GMStdTimeSourceGetTimeRemaining_Desc,Get the time remaining on a time source.,Rufen Sie die Restdauer einer Zeitquelle ab.,,GML Visual action description
+GMStdTimeSourceGetTimeRemaining_Story,Get the time remaining on time source ${idx} and assign it to ${var},Die Restdauer einer Zeitquelle ${idx} abrufen und diese ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceGetState_Name,Get State,Status abrufen,,GML Visual action name
+GMStdTimeSourceGetState_Desc,Get the current state of a time source.,Rufen Sie den aktuellen Status einer Zeitquelle ab.,,GML Visual action description
+GMStdTimeSourceGetState_Story,Get the current state of time source ${idx} and assign it to ${var},Den aktuellen Status einer Zeitquelle abrufen und diese ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceGetParent_Name,Get Parent,Parent abrufen,,GML Visual action name
+GMStdTimeSourceGetParent_Desc,Get the parent of a time source.,Rufen Sie den Parent einer Zeitquelle ab.,,GML Visual action description
+GMStdTimeSourceGetParent_Story,Get the parent of time source ${idx} and assign it to ${var},Den Parent einer Zeitquelle abrufen und diese ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceGetChildren_Name,Get Children,Children abrufen,,GML Visual action name
+GMStdTimeSourceGetChildren_Desc,Get the children of a time source.,Rufen Sie die Children einer Zeitquelle ab.,,GML Visual action description
+GMStdTimeSourceGetChildren_Story,Get the children of time source ${idx} and assign it to ${var},Die Children einer Zeitquelle abrufen und diese ${var} zuweisen,,GML Visual story text
+GMStdTimeSourceExists_Name,If Time Source Exists,Wenn Zeitquelle vorhanden ist,,GML Visual action name
+GMStdTimeSourceExists_Desc,Check if a time source exists.,"Prüfen Sie, ob eine Zeitquelle vorhanden ist.",,GML Visual action description
+GMStdTimeSourceExists_Story_1,If time source ${idx} exists,Wenn Zeitquelle ${idx} vorhanden ist,,GML Visual story text
+GMStdTimeSourceExists_Story_2,If time source ${idx} does not exist,Wenn Zeitquelle ${idx} nicht vorhanden ist,,GML Visual story text
+GMStdIfTimeSourceState_Name,If State,Wenn Status,,GML Visual action name
+GMStdIfTimeSourceState_Desc,Check if a time source's state satisfies a condition.,"Prüfen Sie, ob der Status der Zeitquelle eine Bedingung erfüllt.",,GML Visual action description
+GMStdIfTimeSourceState_Story_1,If the state of time source ${idx} is ${state},Wenn der Status der Zeitquelle${idx} ${state} ist,,GML Visual story text
+GMStdIfTimeSourceState_Story_2,If the state of time source ${idx} is not ${state},Wenn der Status der Zeitquelle${idx}nicht ${state} ist,,GML Visual story text
+GMStdIfTimeSourceUnits_Name,If Units,Wenn Einheiten,,GML Visual action name
+GMStdIfTimeSourceUnits_Desc,Check if a time source's units satisfies a condition.,"Prüfen Sie, ob die Einheiten der Zeitquelle eine Bedingung erfüllen.",,GML Visual action description
+GMStdIfTimeSourceUnits_Story_1,If the units of time source ${idx} are ${units},Wenn die Einheiten der Zeitquelle ${idx} ${units} sind,,GML Visual story text
+GMStdIfTimeSourceUnits_Story_2,If the units of time source ${idx} are not ${units},Wenn die Einheiten der Zeitquelle ${idx} nicht ${units} sind,,GML Visual story text
+GMStdIfTimeSourceParent_Name,If Parent,Wenn Parent,,GML Visual action name
+GMStdIfTimeSourceParent_Desc,Check if a time source's parent satisfies a condition.,"Prüfen Sie, ob der Parent der Zeitquelle eine Bedingung erfüllt.",,GML Visual action description
+GMStdIfTimeSourceParent_Story_1,If the parent of time source ${idx} is ${parent},Wenn der Parent der Zeitquelle ${idx} ${parent} ist,,GML Visual story text
+GMStdIfTimeSourceParent_Story_2,If the parent of time source ${idx} is not ${parent},Wenn der Parent der Zeitquelle ${idx} nicht ${parent} ist,,GML Visual story text
 RedefineKeys_MoveFlowNext,Move Flow Next,Nächsten Flow verschieben,,Redefine keys MoveFlowNext string
 RedefineKeys_MoveFlowPrevious,Move Flow Previous,Vorherigen Flow verschieben,,Redefine keys MoveFlowPrevious string
 RedefineKeys_FlowAccept,Flow Accept,Flow akzeptieren,,Redefine keys FlowAccept string
@@ -7744,10 +7743,10 @@ RedefineKeys_Insert,Insert,Einfügen,,Redefine keys Insert string
 RedefineKeys_ImageEditor_AddFromFile,Image Editor Add From File,Bildeditor Aus Datei hinzufügen,,Redefine keys ImageEditor_AddFromFile string
 RedefineKeys_ImageEditor_CreateFromStrip,Image Editor Create From Strip,Bildeditor Von Strip erstellen,,Redefine keys ImageEditor_CreateFromStrip string
 RedefineKeys_ImageEditor_ImportFromStrip,Image Editor Import From Strip,Bildeditor Von Strip importieren,,Redefine keys ImageEditor_ImportFromStrip string
-RedefineKeys_ImageEditor_ExportToPNG,Image Editor Export To PNG,Bildeditor Zu PNG exportieren,,Redefine keys ImageEditor_ExportToPNG string
+RedefineKeys_Export To PNG,Image Editor Export To PNG,Bildeditor Zu PNG exportieren,,Redefine keys ImageEditor_ExportToPNG string
 RedefineKeys_ImageEditor_ResizeCanvas,Image Editor Resize Canvas,Bildeditor Canvas skalieren,,Redefine keys ImageEditor_ResizeCanvas string
 RedefineKeys_ImageEditor_CropToSelection,Image Editor Crop To Selection,Bildeditor Auf Auswahl zuschneiden,,Redefine keys ImageEditor_CropToSelection string
-RedefineKeys_ImageEditor_AutoTrim,Image Editor Auto Trim,Bildeditor Auto-Trim,,Redefine keys ImageEditor_AutoTrim string
+RedefineKeys_Auto Trim Frames,Image Editor Auto Trim,Bildeditor Auto-Trim,,Redefine keys ImageEditor_AutoTrim string
 RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,Bildeditor Frames umkehren,,Redefine keys ImageEditor_ReverseFrames string
 RedefineKeys_Transform Current Frame,Transform Current Frame,Aktuellen Frame transformieren,,Redefine keys Transform Current Frame string
 RedefineKeys_Transform All Frames,Transform All Frames,Alle Frames transformieren,,Redefine keys Transform All Frames string
@@ -7914,6 +7913,7 @@ RedefineKeys_Command,Command,Befehl,,Redefine keys Command label
 RedefineKeys_Keys,Keys,Tasten,,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Rollback-Anfang,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Rollback-Ereignis,,Other event subtype
+Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
 Inspector_InstVarMixedObjects,Variables only shown when all selected Instances have the same Object,"Variablen werden nur angezeigt, wenn alle ausgewählten Instanzen über das gleiche Objekt verfügen",,mixed instance object message
 Object_Managed,Managed,Verwaltet,,The object is managed by the rollback system
 Object_Managed_Tooltip,Instances of this object will have its lifecycle managed during rollback multiplayer,Der Lebenszyklus der Instanzen dieses Objekts wird im Rollback-Multiplayer verwaltet,,The object is managed by rollback system (tooltip)

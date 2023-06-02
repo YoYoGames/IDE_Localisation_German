@@ -329,18 +329,18 @@ GMStdDrawValue_Story_1,Draw  at ${dnd_position},Zeichnen an ${dnd_position},,GML
 GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},Zeichnen an ${dnd_position} auf ${applyto},,GML Visual story text
 GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position},${var} zeichnen an ${dnd_position},,GML Visual story text
 GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto},${var} zeichnen an ${dnd_position} auf ${applyto},,GML Visual story text
-GMStdDrawValue_Story_5,"Draw "${caption}" at ${dnd_position}","Ziehen Sie "${caption}" an ${dnd_position}",,GML Visual story text
-GMStdDrawValue_Story_6,"Draw "${caption}" at ${dnd_position} on ${applyto}","Ziehen Sie "${caption}" an ${dnd_position} auf ${applyto}",,GML Visual story text
-GMStdDrawValue_Story_7,"Draw "${caption}" ${var} at ${dnd_position}","Ziehen Sie "${caption}" ${var} an ${dnd_position}",,GML Visual story text
-GMStdDrawValue_Story_8,"Draw "${caption}" ${var} at ${dnd_position} on ${applyto}","Ziehen Sie "${caption}" ${var} an ${dnd_position} auf ${applyto}",,GML Visual story text
+GMStdDrawValue_Story_5,"Draw ""${caption}"" at ${dnd_position}","Ziehen Sie ""${caption}"" an ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_6,"Draw ""${caption}"" at ${dnd_position} on ${applyto}","Ziehen Sie ""${caption}"" an ${dnd_position} auf ${applyto}",,GML Visual story text
+GMStdDrawValue_Story_7,"Draw ""${caption}"" ${var} at ${dnd_position}","Ziehen Sie ""${caption}"" ${var} an ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_8,"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Ziehen Sie ""${caption}"" ${var} an ${dnd_position} auf ${applyto}",,GML Visual story text
 GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},Transformiert zeichnen an ${dnd_position},,GML Visual story text
 GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},Transformiert zeichnen an ${dnd_position} auf ${applyto},,GML Visual story text
 GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},${var} transformiert zeichnen an ${dnd_position},,GML Visual story text
 GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},${var} transformiert zeichnen an ${dnd_position} auf ${applyto},,GML Visual story text
-GMStdDrawValueTransformed_Story_5,"Draw transformed "${caption}" at ${dnd_position}","Ziehen Sie transformierte "${caption}" an ${dnd_position}",,GML Visual story text
-GMStdDrawValueTransformed_Story_6,"Draw transformed "${caption}" at ${dnd_position} on ${applyto}","Ziehen Sie transformierte "${caption}" an ${dnd_position} auf ${applyto}",,GML Visual story text
-GMStdDrawValueTransformed_Story_7,"Draw transformed "${caption}" ${var} at ${dnd_position}","Ziehen Sie transformierte "${caption}" ${var} an ${dnd_position}",,GML Visual story text
-GMStdDrawValueTransformed_Story_8,"Draw transformed "${caption}" ${var} at ${dnd_position} on ${applyto}","Ziehen Sie transformierte "${caption}" ${var} an ${dnd_position} auf ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_5,"Draw transformed ""${caption}"" at ${dnd_position}","Ziehen Sie transformierte ""${caption}"" an ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_6,"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}","Ziehen Sie transformierte ""${caption}"" an ${dnd_position} auf ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_7,"Draw transformed ""${caption}"" ${var} at ${dnd_position}","Ziehen Sie transformierte ""${caption}"" ${var} an ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_8,"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Ziehen Sie transformierte ""${caption}"" ${var} an ${dnd_position} auf ${applyto}",,GML Visual story text
 GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},"Sprite ${sprite}, Frame ${image} zeichnen an ${dnd_position}",,GML Visual story text
 GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},"Sprite ${sprite}, Frame ${image} zeichnen an ${dnd_position} auf ${applyto}",,GML Visual story text
 GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","Transformierten Sprite ${sprite}, Frame ${frame} zeichnen mit Skala ${xscale},${yscale} und Drehung ${rot}",,GML Visual story text
@@ -366,9 +366,9 @@ GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${a
 GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},Gesundheitsleiste zeichnen von ${dnd_position1} nach ${dnd_position2} mit Wert ${value},,GML Visual story text
 GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},Gesundheitsleiste zeichnen von ${dnd_position1} nach ${dnd_position2} mit Wert ${value} auf ${applyto},,GML Visual story text
 GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},Wertung zeichnen bei ${dnd_position},,GML Visual story text
-GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption "${caption}"","Ziehen Sie Punktestand an ${dnd_position} mit Überschrift "${caption}"",,GML Visual story text
+GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ""${caption}""","Ziehen Sie Punktestand an ${dnd_position} mit Überschrift ""${caption}""",,GML Visual story text
 GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},Wertung von ${applyto} zeichnen bei ${dnd_position} auf ${applyto},,GML Visual story text
-GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption "${caption}" on ${applyto}","Ziehen Sie ${applyto}'s Punktestand an ${dnd_position} mit Überschrift "${caption}" auf ${applyto}",,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}","Ziehen Sie ${applyto}'s Punktestand an ${dnd_position} mit Überschrift ""${caption}"" auf ${applyto}",,GML Visual story text
 GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},Gesundheitsleiste zeichnen von ${dnd_position1} nach ${dnd_position2},,GML Visual story text
 GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},Gesundheitsleiste von ${applyto} zeichnen von ${dnd_position1} nach ${dnd_position2} auf ${applyto},,GML Visual story text
 GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},Leben in einer Zeile zeichnen bei ${dnd_position},,GML Visual story text
