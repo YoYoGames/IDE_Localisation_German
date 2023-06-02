@@ -3,7 +3,12 @@
   "bundle_version": "1.0",
   "bundle_description": "German IDE localisations",
   "required": false,
-  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_German",
+  "endpoints": [
+    {
+      "endpoint_name": "github",
+      "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_German"
+    }
+  ],
   "plugins": [
     {
       "plugin_name": "GermanLocalisation",
