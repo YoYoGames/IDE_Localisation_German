@@ -7,8 +7,8 @@ _LanguageNative,German,Deutsche,,Language name in the native language
 _LanguageCode,de,de,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,,Location of language manual
-_MANUAL_ONLINE_URL,https://manual-de.yoyogames.com,https://manual-de.yoyogames.com,,online manual url
-_TUTORIALS_ONLINE_URL,https://www.yoyogames.com/de/tutorials,https://www.yoyogames.com/de/tutorials,,Location of Tutorials url
+_MANUAL_ONLINE_URL,https://manual.gamemaker.io/monthly/de,https://manual.gamemaker.io/monthly/de,,online manual url
+_TUTORIALS_ONLINE_URL,https://gamemaker.io/de/tutorials,https://gamemaker.io/de/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,In Explorer öffnen,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Projekt in Explorer öffnen,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,Protokoll in Explorer öffnen,,Windows version of Show Log In Explorer
@@ -7081,9 +7081,6 @@ CanvasText_ParaSpacing,Paragraph Spacing,Absatzabstand,,text track paragraph spa
 RedefineKeys_Record_Keys_Button,Key Search,Tastensuche,,Record keys button
 RedefineKeys_Default_Search,Search,Suchen,,Redefine Keys search box default text
 RedefineKeys_Default_Key_Search,Press a key to search,Drücken Sie für die Suche eine Taste,,Redefine Keys search box default text when searching for key
-Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,Dieser Befehl funktioniert möglicherweise nicht korrekt mit der {0}-Taste. Möchten Sie wirklich fortfahren?,,Are you sure about remapping the command message text
-Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,Unzulässige Taste,,Forbidden Key Title
-Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,"Dieser Befehl kann nicht auf {0} umgestellt werden, da die Taste {1} für diesen Befehl verboten ist.",,Forbidden keys message text
 Feather_LintMessages_Title,Feather Messages,Federnachrichten,,Feather Messages Window Title
 Feather_RefactorDialog_Title,Rename Identifier,Identifikator umbenennen,,Refactor Dialog Title
 Feather_RefactorDialog_Content1,Provide a new name for '{0}':,Geben Sie einen neuen Namen für ‚{0}‘ an:,,Content 1
@@ -7421,7 +7418,6 @@ RedefineKeys_run_memory_info,Run Memory Info,Speicherinfo ausführen,,Redefine k
 RedefineKeys_open_search_replace,Open Search Replace,Suche Ersetzen öffnen,,Redefine keys open_search_replace string
 RedefineKeys_open_search_in_script_find,Open Search In Script Find,Suche in Skript-Suche öffnen,,Redefine keys open_search_in_script_find string
 RedefineKeys_open_search_in_script_replace,Open Search In Script Replace,Suche in Skript-Ersetzen öffnen,,Redefine keys open_search_in_script_replace string
-RedefineKeys_open_prefs_tree,Open Prefs Tree,Präferenz-Baum öffnen,,Redefine keys open_prefs_tree string
 RedefineKeys_set_bookmark_1,Set Bookmark 1,Lesezeichen 1 setzen,,Redefine keys set_bookmark_1 string
 RedefineKeys_set_bookmark_2,Set Bookmark 2,Lesezeichen 2 setzen,,Redefine keys set_bookmark_2 string
 RedefineKeys_set_bookmark_3,Set Bookmark 3,Lesezeichen 3 setzen,,Redefine keys set_bookmark_3 string
@@ -7536,10 +7532,6 @@ RedefineKeys_debugger_continue,Debugger Continue,Debugger Weiter,,Redefine keys 
 RedefineKeys_debugger_step_into,Debugger Step Into,Debugger Schritt hinein,,Redefine keys debugger_step_into string
 RedefineKeys_debugger_step_over,Debugger Step Over,Debugger Schritt über,,Redefine keys debugger_step_over string
 RedefineKeys_debugger_step_out,Debugger Step Out,Debugger Schritt aus,,Redefine keys debugger_step_out string
-RedefineKeys_ab_arrange_up,Ab Arrange Up,Ab Nach oben anordnen,,Redefine keys ab_arrange_up string
-RedefineKeys_ab_arrange_down,Ab Arrange Down,Ab Nach unten anordnen,,Redefine keys ab_arrange_down string
-RedefineKeys_ab_arrange_top,Ab Arrange Top,Ab Oben anordnen,,Redefine keys ab_arrange_top string
-RedefineKeys_ab_arrange_bottom,Ab Arrange Bottom,Ab Unten anordnen,,Redefine keys ab_arrange_bottom string
 RedefineKeys_ac_delete_bksp,Ac Delete Bksp,Ac Rücktaste löschen,,Redefine keys ac_delete_bksp string
 RedefineKeys_ace_cancel,Ace Cancel,Ace abbrechen,,Redefine keys ace_cancel string
 RedefineKeys_ac_path_display,Ac Path Display,Ac-Pfad anzeigen,,Redefine keys ac_path_display string
@@ -7897,8 +7889,8 @@ RedefineKeys_TextEditor,Text Editor,Texteditor,,Redefine keys location entry
 RedefineKeys_SequenceEditor,Sequence Editor,Sequenzeditor,,Redefine keys location entry
 RedefineKeys_ImageEditor,Image Editor,Bildeditor,,Redefine keys location entry
 RedefineKeys_RoomEditor,Room Editor,Raumeditor,,Redefine keys location entry
-RedefineKeys_TimelineEditor,Timeline Editor,Zeitachsen-Editor,,Redefine keys location entry
-RedefineKeys_TilesetEditor,Tileset Editor,Kachelgruppen-Editor,,Redefine keys location entry
+RedefineKeys_TimeLineEditor,Timeline Editor,Zeitachsen-Editor,,Redefine keys location entry
+RedefineKeys_TileSetEditor,Tileset Editor,Kachelgruppen-Editor,,Redefine keys location entry
 RedefineKeys_SpriteEditor,Sprite Editor,Grafikobjekt-Editor,,Redefine keys location entry
 RedefineKeys_PathEditor,Path Editor,Pfad-Editor,,Redefine keys location entry
 RedefineKeys_ObjectEditor,Object Editor,Objekteditor,,Redefine keys location entry
