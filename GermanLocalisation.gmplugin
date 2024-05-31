@@ -3,12 +3,7 @@
   "bundle_version": "1.0.0",
   "bundle_description": "German IDE localisations",
   "required": false,
-  "endpoints": [
-    {
-      "endpoint_name": "github",
-      "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_German"
-    }
-  ],
+  "feature_flag": "",
   "plugins": [
     {
       "plugin_name": "GermanLocalisation",
@@ -17,13 +12,21 @@
       "type": "Language",
       "plugin_data": {
         "languages": [
-            { "German": "german.csv" },
-            {"German": "german_dnd.csv" }
+          {
+            "German": "german.csv"
+          },
+          {
+            "German": "german_dnd.csv"
+          }
         ]
       },
       "description": "German IDE localisations",
       "required_assemblies": [],
       "dependencies": []
     }
-  ]
+  ],
+  "endpoints": [],
+  "author": "GameMaker",
+  "signature": "kKHGSaLHJzTBZLAF0wYjkeKEs9dYeWXluLCvCnDtb0VJD\u002B40ii6SDUBySZrmP0YPey0gRQ3FiOjHVu1\u002Bnu84C98sPsCMXjDqRB2gTUXP4wAuaxDQhjfd0spJX/2RuiF5VrheEUYxHTEk3JMEFnbDBklF4nWh3XqwmpOgON1Fbhs=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfaWA3d2WPN5cJCqTJJj72v6p0a4toQY7MzAPpkXkDxdPpeWMbrV4AQs9V\u002BbGVZ4PaGA3Gl0DWzfSmb\u002Btd/oDtzZZ2XehhxyFg\u002BanTPo6MdTasMkXEDBU50f6e7m3ruelF1QIER0\u002BulTNMI8\u002B\u002BURtTcPu/\u002BalhiA5z7BJP/u2MWwIDAQAB"
 }
