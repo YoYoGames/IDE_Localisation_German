@@ -7814,7 +7814,6 @@ RedefineKeys_tile_line,Tile Line,Kachel Zeile,,Redefine keys tile_line string
 RedefineKeys_tile_rect,Tile Rect,Kachel Rechteck,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,Kachel auswählen,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,Kachel Autom. Kachel,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,Drehen,,Redefine keys Rotate string
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,Autom. Kachel Vollständiges Set hinzufügen,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Autom. Kachel Übergangsset,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Autom. Kachel Set löschen,,Redefine keys autotile_delete_set string
@@ -7901,8 +7900,8 @@ RedefineKeys_ContextMenu,Context Menu,Kontext-Menü,,Redefine keys location entr
 RedefineKeys_FontEditor,Font Editor,Font-Editor,,Redefine keys location entry
 RedefineKeys_SoundEditor,Sound Editor,Sound-Editor,,Redefine keys location entry
 RedefineKeys_SoundMixer,Sound Mixer,Sound-Mixer,,Redefine keys location entry
-RedefineKeys_Command,Command,Befehl,,Redefine keys Command label
-RedefineKeys_Keys,Keys,Tasten,,Redefine keys Keys label
+RedefineKeys_Command,Command{0},Befehl{0},,Redefine keys Command label
+RedefineKeys_Keys,Keys{0},Tasten{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Rollback-Anfang,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Rollback-Ereignis,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
