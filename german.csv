@@ -3,7 +3,7 @@ __Priority,0,0,,Order of language importance. Allows other packs to supplement o
 _Argument0,{0},{0},,single unlocalised argument
 _Error,Error: {0},Fehler: {0},,General error prefix
 _Language,German,German,,Language name - in English
-_LanguageNative,German,Deutsche,,Language name in the native language
+_LanguageNative,German,Deutsch,,Language name in the native language
 _LanguageCode,de,de,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,,Location of language manual
@@ -2998,7 +2998,7 @@ RoomEditor_TileLayerStatus_Full,"Tile map coordinate: ({0}, {1}) Brush tiles: ({
 RoomEditor_PathLayerStatus,Selected control point(s): {0},Gewählte Kontrollpunkte: {0},,the selected control points status for the path layer shown in the room editor status bar
 RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
 ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,Frames pro Sekunde,,the playback type comboxbox entry for fps
-ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,Frames pro Spielframe,,the playback type comboxbox entry for game frame locked playback
+ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,Frames pro Spiel-frame,,the playback type comboxbox entry for game frame locked playback
 GMLVisualToolbox_Menu_AddToWorkspace,Use {0},{0} verwenden,,GML Visual Toolbox use action
 GMLVisualToolbox_Menu_CollapseAll,Collapse All,Alle einklappen,,GML Visual toolbox collapse all
 GMLVisualToolbox_Menu_Favorite,Make Favourite,Als Favorit markieren,,GML Visual Toolbox make favourite
@@ -5943,8 +5943,8 @@ Track_Rotation,Rotation,Drehung,,Track rotation
 Track_Gain,Volume,Lautstärke,,Track gain
 Track_Pitch,Pitch,Tonhöhe,,Track pitch
 Track_Falloff,Falloff,Falloff,,Track falloff
-Track_MultiplyColour,Colour Multiply,Farbe vervielfachen,,Track colour
-Track_AddColour,Colour Add,Farbe hinzufügen,,Track colour
+Track_MultiplyColour,Colour Multiply,Farbe multiplizieren,,Track colour
+Track_AddColour,Colour Add,Farbe addieren,,Track colour
 Track_Origin,Origin,Ursprung,,Sequence parameter
 Track_ImageSpeed,Image Speed,Bildgeschwindigkeit,,Sequence parameter
 Track_ImageIndex,Image Index,Bildindex,,Sequence parameter
