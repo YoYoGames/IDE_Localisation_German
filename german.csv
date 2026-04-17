@@ -36,7 +36,7 @@ BackgroundLayer_PosY,Y Offset,Y-Verschiebung,,numeric textbox label for y pos of
 BackgroundLayer_Stretch,Stretch,Strecken,,Checkbox label for stretch
 BackgroundLayer_VSpeed,Vertical Speed,Vertikale Geschwindigkeit,,Numeric textbox label for vertical scroll speed
 BackgroundLayer_VTile,Vertical Tile,Vertikale Kachel,,Checkbox label for vertical tiling
-Breakpoints,Breakpoints,Haltepunkt,,Breakpoints
+Breakpoints,Breakpoints,Haltepunkte,,Breakpoints
 Breakpoint_Delete,Delete Breakpoint,Haltepunkt löschen,,delete breakpoint menu option
 Breakpoint_GotoCode,Go To Code,Zum Code gehen,,breakpoint show code menu option
 Breakpoint_MenuToggle,Toggle Breakpoint,Haltepunkt ein- oder ausschalten,,toggle breakpoint menu option
@@ -88,7 +88,7 @@ CodeWindow_3Column,3 columns,3 Spalten,,Document window layout menu option - 3 c
 CodeWindow_Fullscreen,Fullscreen workspace tab,Arbeitsbereichreiter in Vollbild,,Document window layout menu option - fullscreen workspace tab
 CodeWindow_Menu_Help,Keyword help,Hilfe Schlagwort,,Code window help menu option
 CodeWindow_Menu_ShowResource,Show resource,Ressource zeigen,,Code window show resource menu option
-CodeWindow_SingleColumn,Single pane,Einzelfenster,,Document window layout menu option - 1 column
+CodeWindow_SingleColumn,Single pane,Einzelansicht,,Document window layout menu option - 1 column
 CodeWindow_Title,Code,Code,,fullscreen code editor workspace tab title
 CodeWindow_RestoreToWorkspace,Restore to Workspace,In Workspace wiederherstellen,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,Zu Objekt gehen,,code editor go to object context menu option
@@ -111,10 +111,10 @@ Configurations_Manage,Manage Configurations,Konfigurationen verwalten,,Manage Co
 Configurations_NameEmptyError,New configuration name cannot be empty,Der Name der neuen Konfiguration darf nicht leer sein,,Configuration name cannot be empty error message
 Configurations_NewName,New Configuration Name,Name der neuen Konfiguration,,New configuration label
 Configurations_Parent,Parent Configuration,Übergeordnete Konfiguration,,Choose parent configuration label
-Configurations_Promote,Promote,Bewerben,,Promotion of a config up the config hierarchy
+Configurations_Promote,Promote,Hochstufen,,Promotion of a config up the config hierarchy
 Configurations_Rename,Rename Configuration,Konfiguration umbenennen,,Rename configuration
 Configurations_RenameError,Cannot rename '{0}' configuration,Konfiguration '{0}' kann nicht umbenannt werden,,Configuration name cannot be renamed error message
-Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,Sind Sie sicher? Das Bewerben einer Konfiguration kann nicht rückgängig gemacht werden,,Confirm the user really wants to promote a config
+Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,Sind Sie sicher? Das Hochstufen einer Konfiguration kann nicht rückgängig gemacht werden,,Confirm the user really wants to promote a config
 ContextMenu_AddMenuEntry,Add Menu Entry,Menüeintrag hinzufügen,,Context menu option to add a menu entry at the end of the context menu
 ContextMenu_AddMenuEntryAfter,Add Menu Entry Below,Menüeintrag darunter hinzufügen,,Context menu option to add a menu entry below the selected entry
 ContextMenu_AddMenuEntryBefore,Add Menu Entry Above,Menüeintrag darüber hinzufügen,,Context menu option to add a menu entry above the selected entry
@@ -259,14 +259,14 @@ Event_Destroy,Destroy,Zerstören,,Destroy event name
 Event_CleanUp,Clean Up,Aufräumen,,Clean Up event name
 Event_Draw,Draw,Zeichnen,,Draw event name
 Event_Draw_Draw,Draw,Zeichnen,,Draw event subtype
-Event_Draw_DrawBegin,Draw Begin,Zeichnen anfangen,,Draw event subtype
-Event_Draw_DrawEnd,Draw End,Zeichnen beenden,,Draw event subtype
-Event_Draw_DrawGUI,Draw GUI,GUI zeichnen,,Draw event subtype
-Event_Draw_DrawGUIBegin,Draw GUI Begin,GUI-Zeichnen anfangen,,Draw event subtype
-Event_Draw_DrawGUIEnd,Draw GUI End,GUI-Zeichnen beenden,,Draw event subtype
-Event_Draw_PostDraw,Post-Draw,Nachzeichnen,,Draw event subtype
-Event_Draw_PreDraw,Pre-Draw,Vorzeichnen,,Draw event subtype
-Event_Draw_Resize,Window Resize,Fenstergröße ändern,,Draw event subtype
+Event_Draw_DrawBegin,Draw Begin,Zeichnen Anfang,,Draw event subtype
+Event_Draw_DrawEnd,Draw End,Zeichnen Ende,,Draw event subtype
+Event_Draw_DrawGUI,Draw GUI,GUI-Zeichnen,,Draw event subtype
+Event_Draw_DrawGUIBegin,Draw GUI Begin,GUI-Zeichnen Anfang,,Draw event subtype
+Event_Draw_DrawGUIEnd,Draw GUI End,GUI-Zeichnen Ende,,Draw event subtype
+Event_Draw_PostDraw,Post-Draw,Nach Zeichnen,,Draw event subtype
+Event_Draw_PreDraw,Pre-Draw,Vor Zeichnen,,Draw event subtype
+Event_Draw_Resize,Window Resize,Fenstergröße geändert,,Draw event subtype
 Event_Key_Alt,Alt,Alt,,Key event subtype
 Event_Key_AnyKey,Any,Beliebig,,Key event subtype
 Event_Key_Backspace,Backspace,Rückstelltaste,,"Key event ""others"" subtype"
