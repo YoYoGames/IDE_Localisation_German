@@ -3,7 +3,7 @@ __Priority,0,0,,Order of language importance. Allows other packs to supplement o
 _Argument0,{0},{0},,single unlocalised argument
 _Error,Error: {0},Fehler: {0},,General error prefix
 _Language,German,German,,Language name - in English
-_LanguageNative,German,Deutsch,,Language name in the native language
+_LanguageNative,German,Deutsche,,Language name in the native language
 _LanguageCode,de,de,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,http://zeus.yoyogames.com/GMS2-Robohelp-german-2.3.1.29.zip,,Location of language manual
